@@ -66,10 +66,16 @@
 
 # Instalación
 
+https://github.com/nicolasquitiantorres/DesarrolloAppsMovilesNativas_Teknova
+
 1. Clonar el repositorio
 2. Abrir el proyecto en Android Studio
 3. Sincronizar Gradle
 4. Ejecutar en dispositivo físico o emulador
+
+# Video
+
+https://www.youtube.com/watch?v=x0_CyA-RObo
 
 # Autor
 

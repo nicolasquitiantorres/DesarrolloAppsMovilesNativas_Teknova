@@ -89,7 +89,7 @@ class PagoActivity : AppCompatActivity() {
 
             Toast.makeText(
                 this,
-                "Compra realizada correctamente",
+                "Se realizo la compra",
                 Toast.LENGTH_LONG
             ).show()
 
