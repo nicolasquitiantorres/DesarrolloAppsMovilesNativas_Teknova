@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="#111111"
+            android:gravity="center_vertical"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingTop="38dp">
+
+            <ImageView
+                android:layout_width="164dp"
+                android:layout_height="102dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo_teknova" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/botonVolver"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="← Volver"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#9A72B2"
+            android:background="@drawable/boton_circular"
+            android:backgroundTint="@null"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CRUD PRODUCTOS"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D9D9D9"
+            android:layout_margin="20dp"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre producto"
+                android:textColor="#555555"/>
+
+            <EditText
+                android:id="@+id/inputNombre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EFEFEF"
+                android:hint="Ej: iPhone 15 Pro"
+                android:paddingLeft="14dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio"
+                android:textColor="#555555"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/inputPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EFEFEF"
+                android:hint="$2.500.000"
+                android:paddingLeft="14dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock"
+                android:textColor="#555555"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/inputStock"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EFEFEF"
+                android:hint="20"
+                android:paddingLeft="14dp"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="24dp">
+
+                <Button
+                    android:id="@+id/botonAgregar"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="Agregar"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/boton_redondeado"
+                    android:backgroundTint="@null"/>
+
+                <Button
+                    android:id="@+id/botonEditar"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="Editar"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textColor="#9A72B2"
+                    android:background="@drawable/boton_circular"
+                    android:backgroundTint="@null"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/botonEliminar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Eliminar Producto"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/boton_redondeado"
+                android:backgroundTint="@null"
+                android:layout_marginTop="14dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ProfundizacionTekNova" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryBlue</item>
+        <item name="colorSecondary">@color/primaryPurple</item>
+
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.ProfundizacionTekNova" parent="Base.Theme.ProfundizacionTekNova" />
+
+</resources>

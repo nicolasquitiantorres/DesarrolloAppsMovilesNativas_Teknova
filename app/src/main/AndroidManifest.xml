@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProfundizacionTekNova">
+        <activity
+            android:name=".ReporteVentasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistorialPedidosActivity"
+            android:exported="false" /> <!-- SPLASH -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- RECUPERAR -->
+        <activity
+            android:name=".RecuperarContrasenaActivity"
+            android:exported="false" /> <!-- CRUD -->
+        <activity
+            android:name=".CrudProductosActivity"
+            android:exported="false" /> <!-- VENDEDOR -->
+        <activity
+            android:name=".PanelVendedorActivity"
+            android:exported="false" /> <!-- ADMIN -->
+        <activity
+            android:name=".GestionUsuariosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardAdministradorActivity"
+            android:exported="false" /> <!-- PERFIL -->
+        <activity
+            android:name=".PerfilUsuarioActivity"
+            android:exported="false" /> <!-- PAGO -->
+        <activity
+            android:name=".PagoActivity"
+            android:exported="false" /> <!-- CARRITO -->
+        <activity
+            android:name=".CarritoActivity"
+            android:exported="false" /> <!-- DETALLE -->
+        <activity
+            android:name=".DetalleProductoActivity"
+            android:exported="false" /> <!-- HOME -->
+        <activity
+            android:name=".InicioCompradorActivity"
+            android:exported="false" /> <!-- LOGIN -->
+        <activity
+            android:name=".InicioSesionActivity"
+            android:exported="false" /> <!-- PANTALLA INICIO -->
+        <activity
+            android:name=".PantallaInicioActivity"
+            android:exported="false" /> <!-- MAIN -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
